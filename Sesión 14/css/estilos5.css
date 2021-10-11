@@ -1,8 +1,12 @@
-.externo{
+/*.externo{
+    color: green;
+}*/
+
+a[class="externo"]{
     color: green;
 }
 
 a[href^="mailto:"]{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:blue;
+    color:brown;
 }

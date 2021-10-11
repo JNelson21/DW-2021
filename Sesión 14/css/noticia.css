@@ -1,0 +1,17 @@
+#caja1{
+    height: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#caja2{
+    width: 200px;
+    height: 100px;
+    float: right;
+}
+#caja3{
+    background-color: blanchedalmond;
+}
+#caja4{
+    background-color: yellow;
+    width: 200px;
+    float: right;
+}

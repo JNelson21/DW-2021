@@ -1,5 +1,12 @@
 h1{
-    color: green;
-    font-family: 'Courier New', Courier, monospace;
+    color: rgb(39, 35, 67);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
+    background-color: #ffd803;
+    margin:2%;
+}
+
+p{
+    background-color: #e3f6f5;
+    margin:2%;
 }

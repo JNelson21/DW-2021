@@ -1,0 +1,46 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  width: 1200px;
+  margin: auto;
+  background-color: yellowgreen;
+}
+
+header {
+  background-color: yellow;
+}
+
+article {
+  background-color: gray;
+  width: 70%;
+  float: left;
+}
+
+footer {
+  background-color: blue;
+  clear: both;
+  height: 40pxx;
+  width: 1200px;
+  margin: auto;
+  color: white;
+}
+
+nav {
+  width: 30%;
+  float: left;
+}
+
+h1 {
+  margin: 0px;
+  padding: 10px;
+}
+
+p {
+  padding: 5px;
+}
+
+li {
+  list-style: none;
+}

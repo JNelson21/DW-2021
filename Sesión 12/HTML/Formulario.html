@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
 </head>
 <body>
-    <div id="Contenedor">
-        <h2 style="color:darkblue; text-align: center;">
-            <img src="/Sesión 12/img/Oscar.png" width="50" height="50">
-            Encuesta de cine: Nominadas al Oscar 2021 
-            <img src="/Sesión 12/img/Oscar.png" width="50" height="50">
-        </h2>
+    <div id="Contenedor" style="width: 600px;">
+        <h2 style="color:darkblue">
+            <img src="/Sesión 12/img/Oscar.png" alt="El Oscar" style="height: 50px; width: 50px; align:left;"> Encuesta de cine: Nominadas al Oscar 2021 
+            <img src="/Sesión 12/img/Oscar.png" alt="El Oscar" style="height: 50px; width: 50px; align:rigth;">
+        </h2><br>
 
         <form id="formulario1" name="formulario1" method="post" action="data.php">
             <fieldset id="datos_personales">
@@ -56,7 +55,7 @@
 
             <fieldset id="grupo_argumento">
                 <legend>Argumento de tu película preferida</legend>
-                <textarea name="argumento" id="argumentos" cols="100" rows="10"></textarea>
+                <textarea name="argumento" id="argumentos" cols="74" rows="10"></textarea>
             </fieldset>
             <br>
             <input type="reset" value="Borrar Formulario"> <input type="submit" value="Enviar">

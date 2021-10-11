@@ -1,6 +1,6 @@
 body{
-    color: blue;
-    font-family: Arial;
+    color:sienna;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
@@ -8,5 +8,5 @@ h1{
 }
 
 p{
-    color: red;
+    color: slategrey;
 }
