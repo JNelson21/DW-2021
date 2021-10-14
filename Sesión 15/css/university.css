@@ -1,0 +1,39 @@
+.grid{
+    min-height: 100vh;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 100px 50px;
+    grid-template-areas: "head" "menu" "contenido" "aside" "foot";
+}
+
+header{
+grid-area: head;
+background-color: #fffffe;
+}
+
+nav{
+    grid-area: nav;
+    background-color: #bae8e8;
+}
+aside{
+    grid-area: aside;
+    background-color: #ffd803;
+}
+
+section{
+    grid-area: contenido;
+    background-color:  #fffffe;
+}
+
+footer{
+    grid-area: foot;
+    background-color: #272343;
+}
+
+@media(min-width: 1001px){
+    .grid{
+        grid-template-columns: 15% 85%;
+        grid-template-rows: 200px 700px 500px 200px;
+        grid-template-areas: "head head" "" "" "foot foot";
+    }
+} 

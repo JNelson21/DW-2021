@@ -1,0 +1,44 @@
+.grid{
+    min-height: 100vh;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 1fr 100px 50px;
+    grid-template-areas: "head" "menu" "contenido" "aside" "foot";
+}
+
+header{
+grid-area: head;
+background-color: rgb(224, 200, 248);
+}
+nav{
+    grid-area: menu;
+    background-color: rgb(187, 172, 197);
+}
+section{
+    grid-area: contenido;
+    background-color: rgba(42, 60, 163, 0.158);
+}
+aside{
+    grid-area: aside;
+    background-color: rgb(68, 163, 138);
+}
+footer{
+    grid-area: foot;
+    background-color: rgb(5, 66, 50);
+}
+
+@media(min-width: 600px) and (max-width:1000px){
+    .grid{
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 150px 50px 1fr 100px;
+        grid-template-areas: "head head" "menu menu" "aside contenido" "foot foot";    
+    }
+} 
+
+@media(min-width: 1001px){
+    .grid{
+        grid-template-columns: 25% 50% 25%;
+        grid-template-rows: 200px 1fr 100px;
+        grid-template-areas: "head head head" "menu contenido aside" "foot foot foot";
+    }
+} 

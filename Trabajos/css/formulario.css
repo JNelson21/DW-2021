@@ -1,0 +1,54 @@
+body{
+    font-family: Arial;
+    background: #18A383;
+    color:#0f3433;
+    line-height: 1.5em;
+}
+
+#contenedor{
+    margin: 0 auto;
+    width: 700px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+div h2{
+    text-align: center;
+    color:black;
+    margin: 0 auto;
+}
+
+.oscar{
+    height: 50px;
+    width: 50px;
+}
+
+
+fieldset legend{
+    font-weight: bold;
+}
+
+#nombre, #apellido, #dni, #edad, #sexo{
+    padding: 3px;
+}
+
+#datos_personales, #mejor_película, #peliculas_no_vistas, #grupo_argumento{
+    margin: 20px;
+}
+
+.btn_borrar, .btn_enviar{
+    border-radius: 3px;
+    padding: 10px;
+    background-color: #f9bc60;
+    border: none;
+    margin-left: 20px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.btn_borrar:hover, .btn_enviar:hover{
+    background-color: #18A383;
+}
+
+

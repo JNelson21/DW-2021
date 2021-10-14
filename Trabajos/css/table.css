@@ -1,0 +1,44 @@
+body{
+    font-family: Arial;
+    margin: 45px auto;
+    width: 850px;
+    background-color: white;
+}
+
+h1{
+    color: #14213D;
+}
+
+table{
+    padding: 0;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+thead, th{
+    background-color: #1687A7;
+    color: white;
+    text-align: center;
+}
+
+td.total{
+    background-color: #E5E5E5;
+}
+
+.text_left{
+    text-align: left;
+}
+
+td{
+    text-align: center;
+}
+
+.text_right{
+    background-color: #E5E5E5;
+    text-align: right;
+}
+
