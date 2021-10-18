@@ -6,9 +6,8 @@
 /*---------------ENCABEZADO---------------*/
 .caja1{
     background-color: #ff0102;
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
-
 }
 
 #menu{
@@ -29,6 +28,7 @@ nav{
     font-weight: bold;
     font-size: 12px;
     background-color: #E5E5E5;
+    width: 100%;
 }
 
 nav ul li{
@@ -47,10 +47,8 @@ main{
     margin: 30px auto;
 }
 
-.caja3 p{
-}
 .caja3 h1{
-    font-size: 41px;
+    font-size: 40px;
     margin: 10px auto;
 }
 
