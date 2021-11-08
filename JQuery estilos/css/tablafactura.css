@@ -1,0 +1,80 @@
+.detalle,.detalle td,.detalle th{
+    border:1px solid #2956A7;
+}
+.thead{
+    background-color: #2956A7;
+    color:white;
+    border-style: solid;
+}
+img{
+    width:200px;
+}
+header{
+    margin-bottom: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+hr{
+    border: 1px solid salmon;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+header h3{
+    margin-top:0px;
+    float: right;
+}
+.titulo-recibo{
+   line-height: 40px;
+   margin-left: 35px;
+}
+.titulo-recibo img{
+    width: 40px;
+    float: left;
+}
+.titulo-recibo h3{
+    position: relative;
+}
+.recibo{
+    border-collapse: collapse;
+    table-layout: auto;
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.recibo th, .recibo td{
+  padding: 10px;
+  
+}
+.recibo th{
+    color: white;
+}
+.recibo tr{
+    border: 1px solid #16243f;
+}
+.recibo thead{
+    background-color: #2956A7;
+}
+.caja-recibo{
+    margin:0px auto;}
+
+.detalle{
+    width: 95%;
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.titulo-detalle{
+    line-height: 40px;
+    margin-left: 35px;
+ }
+ .titulo-detalle img{
+     width: 40px;
+     float: left;
+ }
+ .detalle th, .detalle td{
+    padding: 5px;
+    
+  }

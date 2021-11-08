@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Arial;
+    background: #18A383;
+    color:#0f3433;
+    line-height: 2em;
+
+}
+
+div{
+    background-color: white;
+    border-radius: 5px;
+    margin: 30px 10vw;
+    padding: 20px 30px;
+    text-align: left;
+}
+
+label{
+    display: block;
+
+}
