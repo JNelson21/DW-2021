@@ -1,0 +1,77 @@
+div{
+     background-color: blueviolet;
+     color: white;
+     pad: .2rem .3rem 1rem .3rem;
+     position: absolute;
+     border-radius: 2rem 2rem 0 0;
+     animation: animar;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+ }
+ 
+ @keyframes animar {
+     0%{
+         left: 0;
+         top: 0;
+     }
+     10%{
+         left: 5rem;
+         top: 0rem;
+         color: #9b59b6;
+     }
+     30%{
+         top: 5rem;
+         left: 5rem;
+         color: white;
+     }
+     60%{
+         top: 5rem;
+         left: 0;
+         color: #9b59b6;
+     }
+     100%{
+         top: 0;
+         left: 0;
+     }
+ }
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background: #333;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.container::after {
+  content: "";
+  position: absolute;
+  display: block;
+  border-top: 12px dotted white;
+  color: white;
+  width: 90%;
+  top: 50%;
+  left: 5%;
+  margin-top: -6px;
+}
+
+.pacman {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+}
+
+.pacman::before, .pacman::after {
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  position: absolute;
+  border: solid 30px yellow;
+  margin-top: -30px;
+  border-radius: 50%;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  animation: final__mouthTop 0.7s ease infinite;
+}

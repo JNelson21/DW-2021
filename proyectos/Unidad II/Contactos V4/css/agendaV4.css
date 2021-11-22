@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body{
+    background-image: linear-gradient(to right top, #1e8cfe, #1676d6, #1061b0, #0c4c8b, #093868);
+}
+
+#contenedor{
+    width: 600px;
+    margin: 150px auto;
+    padding: 20px 10px;
+    padding-left: 10px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 8px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+header i{
+    font-size: 20px;
+    padding-right: 10px;
+}
+header h3{
+    float: right;
+    margin: 0;
+}
+
+form span{
+    text-align: left;
+    margin-right: 10px;
+    margin-top: 2px;
+    font-size: 0.875em;
+    width: 150px;
+}
+
+form input{
+    width: 220px;
+}
+span{
+    width: 100px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+}
+
+.nom{
+    width: 110px;
+}
+
+.nomemail{
+    width: 250px;
+}
+
+.nom, .nomemail{
+    background-color: rgb(224, 224, 224);
+    font-size: 12.5px;
+    text-align: center;
+}
+
+.titu{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 110px;
+    text-align: center;
+}
+
+.tituemail{
+    width: 250px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+li{
+    list-style: none;
+    margin-top: 1px;
+}
+
+ul{
+    margin: 0px;
+    padding-left: 0px;
+}
+
+#aviso{
+    background-color: #fff5de;
+    width: 500px;
+    text-align: right;
+}
+#aviso2{
+    background-color: #fff5de;
+    width: 500px;
+    text-align: right;
+}
+
+.botones{
+    text-align: center;
+    margin: 10px;
+}
+
+.botones button{
+    background-color: #007bff;
+    color: white;
+    margin: 0 5px;
+    padding: 10px 10px;
+    border-radius: 0.25rem;
+    border: none;
+}
+
+.botones button:hover{
+    background-color: #0261c7;
+}
